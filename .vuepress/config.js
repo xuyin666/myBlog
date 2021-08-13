@@ -164,17 +164,17 @@ module.exports = {
       meting :{
         auto: 'https://music.163.com/#/song?id=1371939273'
       },
-      // aplayer: {
-      //   fixed: true,
-      //   mini: true,
-      //   autoplay: true,
-      //   listFolded: true,
-      //   theme: '#f9bcdd',
-      //   lrcType: 0,
-      // },
-      // mobile: {
-      //   cover: false
-      // }
+      aplayer: {
+        fixed: true,
+        mini: true,
+        autoplay: true,
+        listFolded: true,
+        theme: '#f9bcdd',
+        lrcType: 0,
+      },
+      mobile: {
+        cover: false
+      }
       
     }
   },
