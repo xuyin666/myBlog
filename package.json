@@ -1,0 +1,24 @@
+{
+  "name": "myblog",
+  "version": "1.0.0",
+  "author": "yin",
+  "scripts": {
+    "dev": "vuepress dev . --open --host \"localhost\"",
+    "build": "vuepress build ."
+  },
+  "devDependencies": {
+    "vuepress": "1.8.2",
+    "vuepress-plugin-cursor-effects": "^1.0.2",
+    "vuepress-plugin-meting": "^0.3.0",
+    "vuepress-theme-reco": "1.6.6"
+  },
+  "description": "",
+  "dependencies": {
+    "@vuepress-reco/vuepress-plugin-comments": "^1.6.0",
+    "@vuepress-reco/vuepress-plugin-kan-ban-niang": "^1.0.5",
+    "moment": "^2.29.1",
+    "vuepress-plugin-comment": "^0.7.3",
+    "vuepress-plugin-container": "^2.1.5",
+    "vuepress-plugin-sponsor": "^1.0.0"
+  }
+}
