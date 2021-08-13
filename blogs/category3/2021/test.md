@@ -27,6 +27,12 @@ Dans le projet, on a un besoin pour faire quequelles choses
 
 ### another title
 
+```
+this is a code block 
+```
+
+!["image info"](/pikachu.jpg)
+
 
 ::: tip
 This is a tip

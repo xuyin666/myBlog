@@ -1,13 +1,13 @@
 module.exports = {
   "title": "鑫仔的博客空间",
-  "description": "为祖国健康工作50年",
+  "description": "汽水在打汽喔 请稍等 ≡ω≡",
   "dest": "public",
   "head": [
     [
       "link",
       {
         "rel": "icon",
-        "href": "/favicon.ico"
+        "href": "/favicon1.ico"
       }
     ],
     [
@@ -131,6 +131,12 @@ module.exports = {
       after: '</div>',
     },
     'cursor-effects': {},
+    // 'cursor-effects':
+    // {
+    //   size: 2, // size of the particle, default: 2
+    //   shape: ['circle'], // shape of the particle, default: 'star'
+    //   zIndex: 999999999, // z-index property of the canvas, default: 999999999
+    // },
     '@vuepress/last-updated':
     {
       transformer: (timestamp, lang) => {
@@ -140,12 +146,20 @@ module.exports = {
         return moment(timestamp).format('YYYY-MM-DD HH:mm:ss')
       }
     },
-    // 'cursor-effects':
-    // {
-    //   size: 2, // size of the particle, default: 2
-    //   shape: ['circle'], // shape of the particle, default: 'star'
-    //   zIndex: 999999999, // z-index property of the canvas, default: 999999999
-    // },
+    'vuepress-plugin-nuggets-style-copy': {
+      copyText: "复制代码",
+      tip: {
+          content: "复制成功"
+      }
+    },
+    "dynamic-title":
+    {
+      showIcon: "/favicon.ico",
+      showText: "(/≧▽≦/)欢迎回来！",
+      hideIcon: "/failure.ico",
+      hideText: "(●—●)喔吼，不要走",
+      recoverTime: 2000
+    },
     "meting": {
       meting :{
         auto: 'https://music.163.com/#/song?id=1371939273'
@@ -163,6 +177,11 @@ module.exports = {
       // }
       
     }
-
-  }
+  },
+  '@vuepress/medium-zoom': {
+      selector: '.theme-reco-content:not(a) img',
+      options: {
+          background: "#fff"
+      }
+  },
 }
