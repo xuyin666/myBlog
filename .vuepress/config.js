@@ -195,5 +195,8 @@ module.exports = {
   'sitemap': {
     hostname: 'https://xuyin666.github.io/'
   },
+  '@vuepress/google-analytics':{
+    'ga': 'UA-116687026-1' // UA-00000000-0
+  }
   }
 }
