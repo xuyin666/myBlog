@@ -113,7 +113,7 @@ module.exports = {
   // },
   plugins: {
     // 'vuepress-plugin-sponsor': {
-    //   theme: 'simple',
+    //   // theme: 'simple',
     //   alipay: '/sponsor-qrcode/alipay.png',
     //   wechat: '/sponsor-qrcode/wechatpay.jpg',
     //   qq: '/sponsor-qrcode/qqpay.png',
@@ -162,7 +162,10 @@ module.exports = {
     },
     "meting": {
       meting :{
-        auto: 'https://music.163.com/#/song?id=1371939273'
+        // auto: 'https://music.163.com/#/song?id=1371939273'
+        server: 'netease',
+        type: 'song',
+        mid: '1371939273',
       },
       aplayer: {
         fixed: true,
@@ -175,7 +178,6 @@ module.exports = {
       mobile: {
         cover: false
       }
-      
     }
   },
   '@vuepress/medium-zoom': {
@@ -183,5 +185,15 @@ module.exports = {
       options: {
           background: "#fff"
       }
+  },
+  '@vuepress/pwa': {
+      ServiceWorker: true,
+      updatePopup: {
+        message: "发现新内容可用",
+        buttonText: "刷新"
+      }
+  },
+  'sitemap': {
+    hostname: 'https://xuyin666.github.io/'
   },
 }
