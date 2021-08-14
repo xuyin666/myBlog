@@ -160,26 +160,25 @@ module.exports = {
       hideText: "(●—●)喔吼，不要走",
       recoverTime: 2000
     },
-    "meting": {
-      meting :{
-        auto: 'https://music.163.com/#/song?id=1371939273',
-        // server: 'netease',
-        // type: 'song',
-        // mid: '1371939273',
-      },
-      aplayer: {
-        fixed: true,
-        mini: true,
-        autoplay: true,
-        listFolded: true,
-        theme: '#f9bcdd',
-        lrcType: 0,
-      },
-      mobile: {
-        cover: false
-      }
-    }
-  },
+    // "meting": {
+    //   meting :{
+    //     auto: 'https://music.163.com/#/song?id=1371939273',
+    //     // server: 'netease',
+    //     // type: 'song',
+    //     // mid: '1371939273',
+    //   },
+    //   aplayer: {
+    //     fixed: true,
+    //     mini: true,
+    //     autoplay: true,
+    //     listFolded: true,
+    //     theme: '#f9bcdd',
+    //     lrcType: 0,
+    //   },
+    //   mobile: {
+    //     cover: false
+    //   }
+    // },
   '@vuepress/medium-zoom': {
       selector: '.theme-reco-content:not(a) img',
       options: {
@@ -196,4 +195,5 @@ module.exports = {
   'sitemap': {
     hostname: 'https://xuyin666.github.io/'
   },
+  }
 }
