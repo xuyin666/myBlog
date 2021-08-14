@@ -162,7 +162,7 @@ module.exports = {
     },
     "meting": {
       meting :{
-        // auto: 'https://music.163.com/#/song?id=1371939273'
+        auto: 'https://music.163.com/#/song?id=1371939273',
         server: 'netease',
         type: 'song',
         mid: '1371939273',
