@@ -160,50 +160,50 @@ module.exports = {
       hideText: "(●—●)喔吼，不要走",
       recoverTime: 2000
     },
-    // "meting": {
-    //   meting :{
-    //     auto: 'https://music.163.com/#/song?id=1371939273',
-    //     // server: 'netease',
-    //     // type: 'song',
-    //     // mid: '1371939273',
-    //   },
-    //   aplayer: {
-    //     fixed: true,
-    //     mini: true,
-    //     autoplay: true,
-    //     listFolded: true,
-    //     theme: '#f9bcdd',
-    //     lrcType: 0,
-    //   },
-    //   mobile: {
-    //     cover: false
-    //   }
-    // },
     "meting": {
-      meting: {
-        // 歌单地址-> 如果输入可忽略server|type|mid
-        // 但是不知道为什么不写上这三个会报错, 所以我都写上了
-        auto: 'https://music.163.com/#/playlist?id=6838211960',
-        // 当前服务为netease -> 网易
-        server: "netease",
-        // 类型为歌单
-        type: "playlist",
-        // 歌单id
-        mid: "6838211960",
+      meting :{
+        auto: 'https://music.163.com/#/song?id=1371939273',
+        server: 'netease',
+        type: 'song',
+        mid: '1371939273',
       },
       aplayer: {
-        // 歌单为随机
-        order: 'random',
-        // 0为不显示歌词
-        lrcType: 0,
-        // 音量
-        volume: 0.15,
-        // 开启迷你模式
+        fixed: true,
         mini: true,
-        // 自动播放
-        autoplay: true
+        autoplay: true,
+        listFolded: true,
+        theme: '#f9bcdd',
+        lrcType: 0,
       },
+      mobile: {
+        cover: false
+      }
     },
+    // "meting": {
+    //   meting: {
+    //     // 歌单地址-> 如果输入可忽略server|type|mid
+    //     // 但是不知道为什么不写上这三个会报错, 所以我都写上了
+    //     auto: 'https://music.163.com/#/playlist?id=6838211960',
+    //     // 当前服务为netease -> 网易
+    //     server: "netease",
+    //     // 类型为歌单
+    //     type: "playlist",
+    //     // 歌单id
+    //     mid: "6838211960",
+    //   },
+    //   aplayer: {
+    //     // 歌单为随机
+    //     order: 'random',
+    //     // 0为不显示歌词
+    //     lrcType: 0,
+    //     // 音量
+    //     volume: 0.15,
+    //     // 开启迷你模式
+    //     mini: true,
+    //     // 自动播放
+    //     autoplay: true
+    //   },
+    // },
   '@vuepress/medium-zoom': {
       selector: '.theme-reco-content:not(a) img',
       options: {
