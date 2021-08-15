@@ -1,5 +1,5 @@
 ---
-title: 用vuepress快速搭建博客
+title: 使用vuepress快速搭建个人博客
 date: 2021-08-15
 categories:
   - vuepress
